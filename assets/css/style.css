@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(../images/background.jpg);
+}
+
+.frame {
+    background-color: darkorange;
+    position: relative;
+    top:100px;
+    right: -150px;
+    text-align: center;
+    height: auto;
+    width: 800px;
+    padding-bottom: 20px;
+}
+
+.question {
+    position: relative;
+    background-color: grey;
+    width: 700px;
+    left: 50px;
+    top: auto;
+    margin-top: 15px;
+    height:auto;
+    border: solid 2px black;
+    padding: 10px 10px;
+}
+
+.timer {
+    margin-bottom: 1px;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.text2 {
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    font-weight: 400;
+    color: orange;
+}
+
+.choices {
+    padding-bottom: 5px;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    font-weight: 400;
+    color: orange;
+}
+
+
+button:hover {
+    border-color: orange;
+}
+
+button:last-child {
+    margin-right: auto;
+}
+
+button {
+    text-align: center;
+    background-color: yellow;
+    font: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 3px solid yellow;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+#startbut {
+    position: relative;
+    /*height: 40px;*/
+    /*width: 100px;*/
+    /*top: 15px;*/
+
+}
+
+#title {
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    color: grey;
+    text-shadow: 2px 2px #000;
+}
