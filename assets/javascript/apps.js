@@ -7,15 +7,15 @@ var incorrect = 0;
 var questiontimer;
 var intervalId;
 var Questions = {
-    Question1: "What show was set in the woods around the Campfire, and was sure to give you a fright?",
+    Question1: "What show was set in the woods around a Campfire, and was sure to give you a fright?",
     Options1: ["a) Are You Afraid of the Dark", "b) Tales from the Crypt", "c) Goosebumps", "d) Knock Knock"],
     Answer1: "a) Are You Afraid of the Dark",
 
-    Question2: "What was Kel's favorite beverage in Kenan and Kel?",
+    Question2: "What was Kel's favorite beverage to drink in Kenan and Kel?",
     Options2: ["a) Sweet Tea", "b) Grape Soda", "c) Orange Soda", "d) Pepsi"],
     Answer2: "c) Orange Soda",
 
-    Question3: "In All That who would you call to fix things around the house?",
+    Question3: "In 'All That' who would you call to fix things around the house?",
     Options3: ["a) Bob the Builder", "b) The Repair Man Man Maaan", "c) Steve the plumber", "d) Andrew"],
     Answer3: "b) The Repair Man Man Maaan",
 
